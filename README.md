@@ -5,7 +5,7 @@ Studie: Technische Bedrijfskunde <br><br></h4>
 
 In dit portfolio zal ik bespreken waar ik het afgelopen semester mee bezig ben geweest tijdens de minor applied data science.
 In het volgende kopje zijn de verplichte criteria te vinden, zoals de datacamp courses.
-<details><summary><h2>RVerplichte Criteria</h2></summary>
+<details><summary><h2>Verplichte Criteria</h2></summary>
 Om mee te beginnen zal heb ik alle Datacamp courses afgrond. Hieronder zijn de screenshots ervan te vinden:
 
 </details>
@@ -24,6 +24,12 @@ Deelvragen:
 * Hoe kan er een vegetarisch dieet aangeboden worden zodat deze voldoet aan alle verschillende persoonlijke caloriebehoeften binnen de groep vegetariërs.
 * Hoe kan er een vegetarisch dieet worden aangeboden dat wekelijks varieert.
 Daarnaast heb ik voor dit project ook de inleiding geschreven. In principe bestond het paper alleen maar uit deze onderdelen omdat we als groep al hadden besloten om ons te gaan richten op het container project
+  
+  <h4>Evaluation</h4>
+  Terugkijkend op dit projecten, met de kennis van nu, merk ik dat we (als groep), maar vooral persoonlijk meer uit dit project hadden kunnen halen. Ik had op dat moment nog niet genoeg kennis over de code en kon mij hierdoor niet volledig inzetten voor het project, voornamlijk Charlie en Richal hadden het voortouw genomen bij het coderen. Als ik dit project nu had kunnen overdoen, dan had ik betere code hebben kunnen schrijven.
+  
+  <h4>Conclusions</h4>
+  
 </details>
 
 <details><Summary><h3>Container</h3></summary>
