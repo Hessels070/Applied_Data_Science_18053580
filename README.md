@@ -104,7 +104,7 @@ Uit de tabel hierboven is te zien dat bij deze random state de optimale hoeveelh
 weighted avg       0.79      0.78      0.73       380
 <br>
   het model kan voornamelijk goed een weekenddag voorspellen.
-  
+  </details>
 <details><summary><h2>Communication</h2></summary>
 Zelf ben ik een persoon die het niet erg vind om te presenteren, ik heb mijzelf ingezet voor meerdere interne presentaties en ook nog 2 externe presentaties.
 Dit zijn de presentaties die ik heb gepresenteerd:<br>
