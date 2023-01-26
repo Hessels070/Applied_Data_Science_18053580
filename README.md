@@ -6,7 +6,8 @@ Studie: Technische Bedrijfskunde <br><br></h4>
 In dit portfolio zal ik bespreken waar ik het afgelopen semester mee bezig ben geweest tijdens de minor applied data science.
 In het volgende kopje zijn de verplichte criteria te vinden, zoals de datacamp courses.
 <details><summary><h2>Verplichte Criteria</h2></summary>
-Om mee te beginnen zal heb ik alle Datacamp courses afgrond. Hieronder zijn de screenshots ervan te vinden:
+Om mee te beginnen zal heb ik ongeveer 90% Datacamp courses afgrond. Hieronder zijn de screenshots ervan te vinden:
+  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Datacamp.png">
 
 </details>
 <details><summary><h2>Domain knowledge</h2></summary>
@@ -66,7 +67,10 @@ Voor dit project heb ik ook de eerste opzet gegeven voor de hoofd- en deelvragen
 * De laatste checks uitvoeren en de opmaak verbeteren op het einde.
   
   <h4>Evaluation</h4>
-  Toen ik begon aan dit project merkte ik pas hoe moeilijk Reinforcement learning daadwerkelijk was. Ik had niet meer de houvast aan de opdrachten van DataCamp. Ik kon hier in het begin erg moeilijk mee omgaan. Nu ik terugkijk had ik mijzelf graag meer ingelezen in het reinforcement learning aan het begin van het project.
+  Toen ik begon aan dit project merkte ik pas hoe moeilijk Reinforcement learning daadwerkelijk was. Ik had niet meer de houvast aan de opdrachten van DataCamp. Ik kon hier in het begin erg moeilijk mee omgaan. Nu ik terugkijk had ik mijzelf graag meer ingelezen in het reinforcement learning aan het begin van het project. Als ik dit zou kunnen overdoen dan had ik dit ook zeker gedaan.
+  Wel vond ik dit een enorm interessant project, vooral omdat het heeft laten zien hoe ontzettend breed python kan zijn.
+  <h4>Conclusions</h4>
+  De conclusies zijn terug te vinden in het research paper
   <h4>Planning</h4>
   Tijdens dit project hebben we ook weer gewerkt met een <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Scrum%20container.png'> scrum board</a>
 </details>
@@ -86,9 +90,20 @@ Voor dit project heb ik ook de eerste opzet gegeven voor de hoofd- en deelvragen
   vervolgens ging ik aan de slag met het voorspellen een doordeweekse dag of een weekenddag. Hier is een knn classifier zeker geschikt voor, deze kan namelijk een voorspelling doen op basis van meerdere features in de dataset.<br>
   Eerst had ik een train_test_split uitgevoerd op mijn preprocessed data, hiermee kon ik mijn model valideren.
   Ik had eerst 6 neighbours ingesteld als basis, deze kon ik handmatig aanpassen. Uiteindelijk heb ik een graph gecodeerd waarin naar voren komt wat de optimale neighbours zijn voor het model
-  ![image](https://user-images.githubusercontent.com/81196024/214752578-1fd9952f-4008-43e2-934e-592c7d5a71e8.png)
-Uit de tabel hierboven is te zien dat bij deze random state de optimale hoeveelheid neighbours 48 waren. Dit gaf een correcte voorspelling van %80 procent.
-  </details>
+ ![image](https://user-images.githubusercontent.com/81196024/214803796-83597c6d-6be4-49ec-85e4-316b32f2b166.png)
+Uit de tabel hierboven is te zien dat bij deze random state de optimale hoeveelheid neighbours 156 waren. Dit gaf een correcte voorspelling van %80 procent.<br>
+  Daarna ben ik aan de slag gegaan met een cross validation model, hier kwam een score uit van gemiddeld 75,8%
+ Vervolgens had ik een classificatierapprort gemaakt, hierin zijn de precision en recall terug te vinden.
+                precision    recall  f1-score   support
+
+     Weekday       0.86      0.27      0.41       110
+     Weekend       0.77      0.98      0.86       270
+
+    accuracy                           0.78       380
+   macro avg       0.81      0.63      0.64       380
+weighted avg       0.79      0.78      0.73       380
+<br>
+  het model kan voornamelijk goed een weekenddag voorspellen.
   
 <details><summary><h2>Communication</h2></summary>
 Zelf ben ik een persoon die het niet erg vind om te presenteren, ik heb mijzelf ingezet voor meerdere interne presentaties en ook nog 2 externe presentaties.
