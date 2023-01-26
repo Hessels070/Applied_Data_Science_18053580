@@ -58,7 +58,10 @@ Voor dit project heb ik ook de eerste opzet gegeven voor de hoofd- en deelvragen
   
 </details>
 <details><summary><h2>Predictive Analytics</h2></summary>
-  Voor dit onderdeel ben ik verder gegaan met de dataset van Kaggle, <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Phone_analysis.ipynb'> dit </a> is de link naar mijn notebook. 
+  Voor dit onderdeel ben ik verder gegaan met de dataset van Kaggle, <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Phone_analysis.ipynb'> dit </a> is de link naar mijn notebook.<br>
+  Ik ging kijken of het mij zou lukken om een KNN classifier toe te passen om te voorspellen of een keuken amerikaans of japans kon zijn op basis van, de kosten, voorbereidingsduur en bezorgduur van een order. Na dit model gefit en getraind te hebben kwam, na al van tevoren verwacht te hebben, geen goede voorspelling hieruit. <br> Er kwam namelijk een score uit van 0,54%, het model kon dus met 54% zekerheid een voorspelling doen.<br><br>
+  vervolgens ging ik aan de slag met het voorspellen een doordeweekse dag of een weekenddag. Hier is een knn classifier zeker geschikt voor, o
+  
 # Communication
 Zelf ben ik een persoon die het niet erg vind om te presenteren, ik heb mijzelf ingezet voor meerdere interne presentaties en ook nog 2 externe presentaties.
 Zoals in het hoofdstuk "Research project", heb ik al besproken wat ik heb gedaan aan het research paper.
