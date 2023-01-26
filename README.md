@@ -61,7 +61,18 @@ Voor dit project heb ik ook de eerste opzet gegeven voor de hoofd- en deelvragen
   Voor dit onderdeel ben ik verder gegaan met de dataset van Kaggle, <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Phone_analysis.ipynb'> dit </a> is de link naar mijn notebook.<br>
   Ik ging kijken of het mij zou lukken om een KNN classifier toe te passen om te voorspellen of een keuken amerikaans of japans kon zijn op basis van, de kosten, voorbereidingsduur en bezorgduur van een order. Na dit model gefit en getraind te hebben kwam, na al van tevoren verwacht te hebben, geen goede voorspelling hieruit. <br> Er kwam namelijk een score uit van 0,54%, het model kon dus met 54% zekerheid een voorspelling doen.<br><br>
   vervolgens ging ik aan de slag met het voorspellen een doordeweekse dag of een weekenddag. Hier is een knn classifier zeker geschikt voor, o
-  
-# Communication
+  </details>
+<details><summary><h2>Communication</h2></summary>
 Zelf ben ik een persoon die het niet erg vind om te presenteren, ik heb mijzelf ingezet voor meerdere interne presentaties en ook nog 2 externe presentaties.
-Zoals in het hoofdstuk "Research project", heb ik al besproken wat ik heb gedaan aan het research paper.
+Dit zijn de presentaties die ik heb gepresenteerd:<br>
+  Extern <br>
+  <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Foodboost%20eindpresentatie.pptx'>Externe presentatie week 6 </a>
+<br>
+<a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Externe%20presentatie%20week%2014%20groep%204.pptx'>Externe presentatie week 14 </a><br><br>
+Intern<br>
+<a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%202%20groep%204.pptx'>Interne presentatie week 2</a><br>
+<a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%204%20groep%204.pptx'>Interne presentatie week 4</a><br>
+<a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%206%20groep%204.pptx'>Interne presentatie week 6</a><br>
+<a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%206%20groep%204.pptx'>Interne presentatie week 8</a><br>
+<a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%206%20groep%204.pptx'>Interne presentatie week 12</a><br>
+</details><br>
