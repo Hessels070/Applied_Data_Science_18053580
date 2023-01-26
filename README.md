@@ -63,7 +63,11 @@ Voor dit project heb ik ook de eerste opzet gegeven voor de hoofd- en deelvragen
 <details><summary><h2>Predictive Analytics</h2></summary>
   Voor dit onderdeel ben ik verder gegaan met de dataset van Kaggle, <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Phone_analysis.ipynb'> dit </a> is de link naar mijn notebook.<br>
   Ik ging kijken of het mij zou lukken om een KNN classifier toe te passen om te voorspellen of een keuken amerikaans of japans kon zijn op basis van, de kosten, voorbereidingsduur en bezorgduur van een order. Na dit model gefit en getraind te hebben kwam, na al van tevoren verwacht te hebben, geen goede voorspelling hieruit. <br> Er kwam namelijk een score uit van 0,54%, het model kon dus met 54% zekerheid een voorspelling doen.<br><br>
-  vervolgens ging ik aan de slag met het voorspellen een doordeweekse dag of een weekenddag. Hier is een knn classifier zeker geschikt voor, o
+  vervolgens ging ik aan de slag met het voorspellen een doordeweekse dag of een weekenddag. Hier is een knn classifier zeker geschikt voor, deze kan namelijk een voorspelling doen op basis van meerdere features in de dataset.<br>
+  Eerst had ik een train_test_split uitgevoerd op mijn preprocessed data, hiermee kon ik mijn model valideren.
+  Ik had eerst 6 neighbours ingesteld als basis, deze kon ik handmatig aanpassen. Uiteindelijk heb ik een graph gecodeerd waarin naar voren komt wat de optimale neighbours zijn voor het model
+  ![image](https://user-images.githubusercontent.com/81196024/214752578-1fd9952f-4008-43e2-934e-592c7d5a71e8.png)
+Uit de tabel hierboven is te zien dat bij deze random state de optimale hoeveelheid neighbours 48 waren. Dit gaf een correcte voorspelling van %80 procent.
   </details>
   
 <details><summary><h2>Communication</h2></summary>
