@@ -50,6 +50,7 @@ Voor dit project heb ik ook de eerste opzet gegeven voor de hoofd- en deelvragen
 </details>
 
 <details><summary><h2>Data preprocessing</h2></summary>
+  Voor dit onderdeel heb ik zelf een dataset van kaggle gehaald, dat is <a href='https://www.kaggle.com/code/ahsan81/nyc-restaurant-food-order-delivery-detailed-eda'> deze </a> dataset. Dit heb ik gehaan omdat ik tijdens het foodboost project nog te weinig kennis had over python om deze taak op me te nemen en tijdens het containerproject had Akram de taak op zich genomen om dit uit te voeren. Het notebook, samen met comments, is <a href=''
 # Communication
 Zelf ben ik een persoon die het niet erg vind om te presenteren, ik heb mijzelf ingezet voor meerdere interne presentaties en ook nog 2 externe presentaties.
 Zoals in het hoofdstuk "Research project", heb ik al besproken wat ik heb gedaan aan het research paper.
