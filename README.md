@@ -11,7 +11,24 @@ Om mee te beginnen zal heb ik alle Datacamp courses afgrond. Hieronder zijn de s
 </details>
 <details><summary><h2>Domain knowledge</h2></summary>
   <h4>Introduction to the subject fiels</h4>
-  Bij deze minor was het de bedoeling om aan de slag te gaan met data-analyse, dit werd gedaan met behulp van de programmeertaal 'Python'. 
+  Bij deze minor was het de bedoeling om aan de slag te gaan met data-analyse, dit werd gedaan met behulp van de programmeertaal 'Python'. Met Data science kan er inzicht worden gekregen in deze data. Dit wordt gedaan aan de hand van machine learning. Op basis hiervan kunnen bijvoorbeeld voorspellingen worden gedaan en conclusies worden getrokken uit deze data.<br>
+  <h4>Termologie</h4>
+  Machine learning: een subset van kunstmatige intelligentie waarbij systemen in staat zijn om van data te leren zonder expliciete programmering.<br>
+  Supervised learning: een vorm van machine learning waarbij een model wordt getraind met behulp van gekoppelde input- en outputdata. Het doel is om een model te creëren dat nieuwe inputdata kan classificeren of voorspellen op basis van de input-output associaties van de trainingsdata.<br>
+  Neurale netwerken: een specifiek type machine learning model dat bestaat uit een netwerk van neurale elementen, die in staat zijn om complexe relaties tussen input- en outputdata te leren<br>
+  Overfitting: een situatie waarbij een model te goed is getraind op de trainingsdata, waardoor het niet meer in staat is om nieuwe data correct te classificeren of te voorspellen.<br>
+  Underfitting (of onderschattend): een situatie waarbij een machine learning model niet voldoende is getraind op de gegevens en daardoor niet in staat is om een goede voorspelling te doen voor nieuwe data<br>
+  Hyperparameters: instellingen van een machine learning model, zoals het aantal lagen of de grootte van de batch, die worden gekozen voordat het model wordt getraind.<br>
+  Cross-validation: een methode om het prestatieniveau van een model te evalueren door het model op verschillende delen van de data te trainen en te testen.<br>
+  Libraries: een verzameling van functies en methoden die kunnen worden gebruikt in een Python-programma, zoals NumPy, Pandas, en scikit-learn voor machine learning.<br>
+  <h4>Literatuur</h4>
+  Er zijn ook nog een aantal belangrijke bronnen die ik heb gebruikt tijdens deze minor, dat zijn de volgende:
+  https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88<br>
+  Ntriankos, V. (2022). Optimising the yard layout of Container Terminals. Delft: TU Delft.<br>
+  Shih-Chan, T., Jaw-Shen, W., Shen-Long, K., & Flor Melina, P. (sd). Categorized stacking models for import containers in port container terminals. Maritime Economics &amp; Logistics.<br>
+  
+  
+  
   </details>
 <details><summary><h2>Research Project</h2></summary>
 
