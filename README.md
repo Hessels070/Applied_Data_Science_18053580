@@ -9,7 +9,10 @@ In het volgende kopje zijn de verplichte criteria te vinden, zoals de datacamp c
 Om mee te beginnen zal heb ik alle Datacamp courses afgrond. Hieronder zijn de screenshots ervan te vinden:
 
 </details>
-
+<details><summary><h2>Domain knowledge</h2></summary>
+  <h4>Introduction to the subject fiels</h4>
+  Bij deze minor was het de bedoeling om aan de slag te gaan met data-analyse, dit werd gedaan met behulp van de programmeertaal 'Python'. 
+  </details>
 <details><summary><h2>Research Project</h2></summary>
 
 Waar ik onder andere veel tijd in heb gestoken, is het research project. Voornamelijk heb ik mijzelf bezig gehouden met het schrijven van de inleiding van beide projecten. Zowel het FoodBoost als het Container project. Daarnaast heb ik ook de hoofd- en deelvragen en de doelstelling geformuleerd voor deze projecten. Ik zal per project toelichten wat ik heb bijgedragen 
@@ -62,6 +65,7 @@ Voor dit project heb ik ook de eerste opzet gegeven voor de hoofd- en deelvragen
   Ik ging kijken of het mij zou lukken om een KNN classifier toe te passen om te voorspellen of een keuken amerikaans of japans kon zijn op basis van, de kosten, voorbereidingsduur en bezorgduur van een order. Na dit model gefit en getraind te hebben kwam, na al van tevoren verwacht te hebben, geen goede voorspelling hieruit. <br> Er kwam namelijk een score uit van 0,54%, het model kon dus met 54% zekerheid een voorspelling doen.<br><br>
   vervolgens ging ik aan de slag met het voorspellen een doordeweekse dag of een weekenddag. Hier is een knn classifier zeker geschikt voor, o
   </details>
+  
 <details><summary><h2>Communication</h2></summary>
 Zelf ben ik een persoon die het niet erg vind om te presenteren, ik heb mijzelf ingezet voor meerdere interne presentaties en ook nog 2 externe presentaties.
 Dit zijn de presentaties die ik heb gepresenteerd:<br>
