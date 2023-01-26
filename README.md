@@ -55,6 +55,10 @@ Voor dit project heb ik ook de eerste opzet gegeven voor de hoofd- en deelvragen
   Om mee te beginnen had ik de dataframe ingezien, vervogens heb ik het order id en customer id verwijderd van de dataset, aangezien ik hier geen verdere acties mee ging nemen.<br>
   Daarna controleerde ik of er bepaalde waarden misten in de dataset, dit was niet het geval, we waren sommige restaurantnamen verkeerd getypt, dit heb ik vervolgens aangepast. Dit heb ik ook gecontroleerd bij andere kolommen. Daarna heb ik alle kolommen met numerieke waarden ge-subset en deze vervolgens geplot om de data in de zien. Daarna heb ik gekeken naar de verdeling van de verschillende soorten keukens in de dataset.<br>
   Van deze keukens heb ik de twee meest voorkomende opnieuw ge-subset.
+  
+</details>
+<details><summary><h2>Predictive Analytics</h2></summary>
+  Voor dit onderdeel ben ik verder gegaan met de dataset van Kaggle, <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Phone_analysis.ipynb'> dit </a> is de link naar mijn notebook. 
 # Communication
 Zelf ben ik een persoon die het niet erg vind om te presenteren, ik heb mijzelf ingezet voor meerdere interne presentaties en ook nog 2 externe presentaties.
 Zoals in het hoofdstuk "Research project", heb ik al besproken wat ik heb gedaan aan het research paper.
