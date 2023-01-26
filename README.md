@@ -11,7 +11,8 @@ Om mee te beginnen zal heb ik alle Datacamp courses afgrond. Hieronder zijn de s
 </details>
 <details><summary><h2>Domain knowledge</h2></summary>
   <h4>Introduction to the subject fiels</h4>
-  Bij deze minor was het de bedoeling om aan de slag te gaan met data-analyse, dit werd gedaan met behulp van de programmeertaal 'Python'. Met Data science kan er inzicht worden gekregen in deze data. Dit wordt gedaan aan de hand van machine learning. Op basis hiervan kunnen bijvoorbeeld voorspellingen worden gedaan en conclusies worden getrokken uit deze data.<br>
+  Bij deze minor was het de bedoeling om aan de slag te gaan met data-analyse, dit werd gedaan met behulp van de programmeertaal 'Python'. Python onderscheid zich, omdat de taal erg goed leesbaar is. De taal is geschikt voor een breed scala aan toepassingen, waaronder webontwikkeling, automatisering, data-analyse en machine learning. Dankzij de grote hoeveelheid beschikbare libraries, modules en frameworks, is het mogelijk om complexe taken uit te voeren zonder veel code te hoeven schrijven. Python wordt daarom ook vaak gebruikt in de academische wereld voor wetenschappelijk onderzoek en in de bedrijfsomgevingen, voor het analyseren van grote goeveelheden data. Kortom, python is enorm veelzijdig en kan op veel verschillende manieren worden toegepast.<br>
+  Tijdens deze minor is python daarom ook gebruikt om onderzoek te doen, voor zowel het analyseren en aanbieden van vegetarische, als voor het oplossen van een container-stacking probleem. De mogelijkheden van python zijn enorm groot.<br>
   <h4>Termologie</h4>
   Machine learning: een subset van kunstmatige intelligentie waarbij systemen in staat zijn om van data te leren zonder expliciete programmering.<br>
   Supervised learning: een vorm van machine learning waarbij een model wordt getraind met behulp van gekoppelde input- en outputdata. Het doel is om een model te creëren dat nieuwe inputdata kan classificeren of voorspellen op basis van de input-output associaties van de trainingsdata.<br>
@@ -23,9 +24,11 @@ Om mee te beginnen zal heb ik alle Datacamp courses afgrond. Hieronder zijn de s
   Libraries: een verzameling van functies en methoden die kunnen worden gebruikt in een Python-programma, zoals NumPy, Pandas, en scikit-learn voor machine learning.<br>
   <h4>Literatuur</h4>
   Er zijn ook nog een aantal belangrijke bronnen die ik heb gebruikt tijdens deze minor, dat zijn de volgende:
-  https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88<br>
+  Desaraju, N. (2022, 8 8). Hands-On Introduction to Reinforcement Learning in Python. Opgehaald van Medium: https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88<br>
+  Gupta, A. (2019, 6 7). ML | Reinforcement Learning Algorithm : Python Implementation using Q-learning. Opgehaald van GeeksforGeeks: https://www.geeksforgeeks.org/ml-reinforcement-learning-algorithm-python-implementation-using-q-learning/?ref=rp<br>
   Ntriankos, V. (2022). Optimising the yard layout of Container Terminals. Delft: TU Delft.<br>
   Shih-Chan, T., Jaw-Shen, W., Shen-Long, K., & Flor Melina, P. (sd). Categorized stacking models for import containers in port container terminals. Maritime Economics &amp; Logistics.<br>
+  Verma, R., Saikia, S., Khadilkar, H., Agarwal, P., Shroff, G., & Srinivasan, A. (2019, 5 8). A Reinforcement Learning Framework for Container Selection and Ship Load Sequencing in Ports. AAMAS '19: Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems, pp. 2250-2252.<br>
   
   
   
