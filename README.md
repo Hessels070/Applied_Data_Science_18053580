@@ -61,10 +61,11 @@ Daarnaast heb ik voor dit project ook de inleiding geschreven. In principe besto
 </details>
 
 <details><Summary><h3>Container</h3></summary>
-Voor dit project heb ik ook de eerste opzet gegeven voor de hoofd- en deelvragen, deze zijn wel aangepast naar mate wij verder gingen in dit project. Daarnaast heb ik voor het research paper, dat wij uiteindelijk ingeleverd het volgende bijgedragen:
-* Het schrijven van de inleiding, bestaande uit: een aanleiding, probleemstelling en doelstelling.
-* Het literatuuronderzoek, bestaande uit: indeling terminal, processen containerterminal, reinforcement learning.
-* De laatste checks uitvoeren en de opmaak verbeteren op het einde.
+Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deelvragen, deze zijn wel aangepast naar mate wij verder gingen in dit project. Daarnaast heb ik voor het research paper, dat wij uiteindelijk ingeleverd het volgende bijgedragen:<br>
+  
+* Het schrijven van de inleiding, bestaande uit: een aanleiding, probleemstelling en doelstelling. De eerste opzet van de inleiding is geschreven door Akram<br>
+* Het literatuuronderzoek, bestaande uit: indeling terminal, processen containerterminal, reinforcement learning.<br>
+* De laatste checks uitvoeren en de opmaak verbeteren op het einde.<br>
   
   <h4>Evaluation</h4>
   Toen ik begon aan dit project merkte ik pas hoe moeilijk Reinforcement learning daadwerkelijk was. Ik had niet meer de houvast aan de opdrachten van DataCamp. Ik kon hier in het begin erg moeilijk mee omgaan. Nu ik terugkijk had ik mijzelf graag meer ingelezen in het reinforcement learning aan het begin van het project. Als ik dit zou kunnen overdoen dan had ik dit ook zeker gedaan.
