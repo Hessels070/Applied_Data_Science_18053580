@@ -74,20 +74,26 @@ Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deel
 * De laatste checks uitvoeren en de opmaak verbeteren op het einde.<br>
   
   <h4>Evaluation</h4>
-  Toen ik begon aan dit project merkte ik pas hoe moeilijk Reinforcement learning daadwerkelijk was. Ik had niet meer de houvast aan de opdrachten van DataCamp. Ik kon hier in het begin erg moeilijk mee omgaan. Nu ik terugkijk had ik mijzelf graag meer ingelezen in het reinforcement learning aan het begin van het project. Met name de literatuur, aangezien er enorm veel literatuur over dit onderwerp was te vinden. Als ik dit zou kunnen overdoen dan had ik dit ook zeker gedaan.
+  
+  In dit kopje zal ik bespreken wat ik het afgelopen project heb bijgedragen en welke activiteiten in de toekomst kunnen worden uitgevoerd ten behoeve van het onderzoek en de resultaten. <br><br>
+  Toen ik begon aan dit project merkte ik pas hoe moeilijk Reinforcement learning daadwerkelijk was. Ik had niet meer de houvast aan de opdrachten van DataCamp. Ik kon hier in het begin erg moeilijk mee omgaan. Nu ik terugkijk had ik mijzelf graag meer ingelezen in reinforcement learning aan het begin van het project. Met name de literatuur, aangezien er enorm veel literatuur over dit onderwerp was te vinden. Als ik dit zou kunnen overdoen dan had ik dit ook zeker gedaan.<br>
   Als ik iemand tips kon geven voor reinforcement learning (mijzelf als ik naar het verleden kon gaan) dan zal ik als advies geven om met een zo klein mogelijk en simpel model te beginnen en dit steeds uit te breiden. Het is van belang dat hierbij gebruik wordt gemaakt van veel tutorials die zijn te vinden op het internet.<br>
-  Wel vond ik dit een enorm interessant, maar uitdagend project, vooral omdat het heeft laten zien hoe ontzettend breed python kan zijn. En dat python niet alleen gebruikt kan worden voor het analyseren en visualisering van een grote hoop aan data.<br>
-  Omdat ik merkte dat ik reinforcement learning een lastig onderwerp vond, besloot ik daarom ook om mij vooral te ricthen op het research paper. Daarom dat ik uiteindelijk de gehele inleiding had geschreven en het literatuuronderzoek heb uitgevoerd. Op deze manier kon ik mijn stekre punten zo goed mogelijk benutten tijdens het project. <br>
-  Daarnaast zou ik ook willen onderzoeken op welke andere manieren dit containerprobleem opgeslost zou kunnen worden, denk hierbij aan regressiemodellen en linear programmeren. <br>
+  Wel vond ik dit een enorm interessant, maar uitdagend project, vooral omdat het heeft laten zien hoe ontzettend breed python kan zijn. En dat python niet alleen gebruikt kan worden voor het analyseren en visualiseren van een grote hoop aan data.<br><br>
+  Omdat ik merkte dat ik reinforcement learning een lastig onderwerp vond, besloot ik daarom ook om mij vooral te ricthen op het research paper. Vandaar dat ik uiteindelijk de gehele inleiding had geschreven en het literatuuronderzoek heb uitgevoerd. Op deze manier kon ik mijn stekre punten zo goed mogelijk benutten tijdens het project. <br><br>
+  Daarnaast zou ik ook willen onderzoeken op welke andere manieren dit containerprobleem opgeslost zou kunnen worden, denk hierbij aan regressiemodellen en linear programmeren. <br><br>
   Om de oplossing goed toe te kunnen passen bij een containerterminal zal het model ook opgeschaald moeten worden. Aan het einde van het onderzoek was het gelukt om een optimum te vinden voor grid van 3*3*1. Bij dit grid waren in totaal 9 mogelijke plekken voor een container, alleen werd er niet in de hoogte gestapeld. Dit zal moeten worden opgeschaald naar een grid ter grootte van een containerterminal. 
   Hier zijn vaak honderden tot duizenden plekken voor containers.
-  Daarnaast werd in ons model gebruik gemaakt van van containers die naar 2 verschillende boten toe moesten, 4 voor elke boot. Op een terminal komen per dag veel meer boten binnen. Het is daarom ook van belang om dit te verwerken in het model.
-  Om dit goed te kunnen verwerken zal er eerst onderzoek moeten worden gedaan naar hoeveel schepen gemiddeld per dag in en uit de containertermina gaan en om hoeveel containers dat per dag zal gaan.
+  Daarnaast werd in ons model gebruik gemaakt van van containers die naar 2 verschillende bestemmingen toe moesten, 4 voor elke boot. Op een terminal komen per dag veel meer boten binnen. Het is daarom ook van belang om dit te verwerken in het model.
+  Om dit goed te kunnen verwerken zal er eerst onderzoek moeten worden gedaan naar de hoeveelheid schepen die gemiddeld per dag in en uit de containerterminal gaan en om hoeveel containers dat per dag zal gaan. Er kan dan een gemiddelde worden genomen voor een aantal grote havens in Nederland/ de wereld. Of er kan gerricht onderzoek worden uitgevoerd voor één containerterminal.
   
   <h4>Conclusions</h4>
+  <h5>Model selecteren</h5>
   Aan de hand van het onderzoek dat is uitgevoerd naar de toepassing van de verschillende reinforcement moddellen :A2C en PPO, kwam PPO het beste naar voren op basis van de episodelengte en de resultaten. Aan de hand van het model kunnen containers nu op een efficiënte manier op de kade worden geplaatst. Dit leidt tot het besparen van tijd en dus ook geld.
-  PPO kwam er beter uit, omdat de gemiddelde episodelengte korter was dan bij A2C. 
-  (vertellen over de rewardfunctie).
+  PPO kwam er beter uit, omdat de gemiddelde episodelengte korter was dan bij A2C. Dat is ook te zien in de volgende grafiek:
+  ![image](https://user-images.githubusercontent.com/81196024/221144253-90334893-3899-463b-8bc4-101b94bd442e.png)
+
+  <h5>Rewardfunctie</h5>
+  Voor elke container die werd geplaatst op een beschikbare plek (waar op dat moment geen andere container is geplaatst) werd er een reward van 20 gegeven. Als er al een andere container op die plek stond, dan was er een penalty van -20. Als 2 containers naast elkaar kwamen te staan met dezelfde bestemming, dan werden er nog 10 extre punten toegekend. Als ze niet dezelfde bestemming deelden, dan werd er een penalty gegeven van -10.
   Er zal nog een vervolgonderzoek/ opschaling van het model moeten plaatsvinden. Er is nu namelijk gewerkt met een grid van 3x3x1 (3 breed, 3 lang en 1 hoog), waarop in totaal 8 containers worden geplaatst. Hierbij zijn er 9 plekken om een container te plaatsen. Bij een grootschalige haven zijn er natuurlijk veel meer plekken om een container neer te zetten, en meer containers om te plaatsen.
   Overegins zijn de complete conclusies ook terug te vinden in het research paper.
   <h4>Planning</h4>
