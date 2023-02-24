@@ -120,8 +120,12 @@ Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deel
   Voor dit onderdeel heb ik zelf een dataset van kaggle gehaald, dat is <a href='https://www.kaggle.com/code/ahsan81/nyc-restaurant-food-order-delivery-detailed-eda'> deze </a> dataset. Dit heb ik gehaan omdat ik tijdens het foodboost project nog te weinig kennis had over python om deze taak op me te nemen en tijdens het containerproject had Akram de taak op zich genomen om dit uit te voeren. Het notebook, samen met comments, is <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Phone_analysis%20(1).ipynb'>hier </a> te vinden.<br>
   Nu neem ik jullie mee in mijn data preprocessing:<br>
   Om mee te beginnen had ik de dataframe ingezien, vervogens heb ik het order id en customer id verwijderd van de dataset, aangezien ik hier geen verdere acties mee ging nemen.<br>
-  Daarna controleerde ik of er bepaalde waarden misten in de dataset, dit was niet het geval, we waren sommige restaurantnamen verkeerd getypt, dit heb ik vervolgens aangepast. Dit heb ik ook gecontroleerd bij andere kolommen. Daarna heb ik alle kolommen met numerieke waarden ge-subset en deze vervolgens geplot om de data in de zien. Daarna heb ik gekeken naar de verdeling van de verschillende soorten keukens in de dataset.<br>
-  Van deze keukens heb ik de twee meest voorkomende opnieuw ge-subset.
+  Daarna controleerde ik of er bepaalde waarden misten in de dataset, dit was niet het geval, we waren sommige restaurantnamen verkeerd getypt, dit heb ik vervolgens aangepast. Dit heb ik ook gecontroleerd bij andere kolommen. Daarna heb ik alle kolommen met numerieke waarden ge-subset en deze vervolgens geplot om de data in de zien. Daarna heb ik gekeken naar de verdeling van de verschillende soorten keukens in de dataset.<br><br>
+  <h5>Data Explanation</h5>
+  Van deze keukens heb ik de twee meest voorkomende opnieuw ge-subset. Daarnaast heb ik ook de data gevisualiseerd aan de hand van meerdere grafieken die zijn terug te vinden in het notebook.
+  De dataset ging over het bestellen van eten door inwoners in New York City. Er kwam naar voren dat de meeste bestellingen waren geplaatst voor Amerikaanse en Japanse restaurants. Het overgrote deel van alle bestellingen werd geplaatst in het weekend (1351 van de 1898) bestellingen.
+  De meeste orders hadden een bezorgtijd van 28 minuten en een gemiddelde bezorgtijd van 25 minuten. De meest voorkomende voorbereidingstijd was 35 minuten, met een gemiddelde van 27 minuten. Daarnaast was de prijs van de meeste orders 12 dollar, met een gemiddelde van 14 dollar.
+  Daarnaast verwijs ik nog naar alle visulalisaties in het python notebook.
   
 </details>
 <details><summary><h2>Predictive Analytics</h2></summary>
