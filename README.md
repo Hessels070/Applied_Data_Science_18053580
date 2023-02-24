@@ -66,7 +66,7 @@ Daarnaast heb ik voor dit project ook de inleiding geschreven. In principe besto
   Tijdens het project hebben we met een <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/SCRUM%20Foodboost.png'> scrum board </a> gewerkt.
 </details>
 
-<details><Summary><h3>Container</h3></summary>
+<details><Summary><h2>Container</h2></summary>
 Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deelvragen, deze zijn wel aangepast naar mate wij verder gingen in dit project. Daarnaast heb ik voor het <a href ="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Research%20Paper%20Container%20Project%20Groep%204.pdf"> research paper </a>, dat wij uiteindelijk ingeleverd het volgende bijgedragen:<br>
   
 * Het schrijven van de inleiding, bestaande uit: een aanleiding, probleemstelling en doelstelling. De eerste opzet van de inleiding is geschreven door Akram<br>
@@ -81,7 +81,7 @@ Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deel
   Wel vond ik dit een enorm interessant, maar uitdagend project, vooral omdat het heeft laten zien hoe ontzettend breed python kan zijn. En dat python niet alleen gebruikt kan worden voor het analyseren en visualiseren van een grote hoop aan data.<br><br>
   Omdat ik merkte dat ik reinforcement learning een lastig onderwerp vond, besloot ik daarom ook om mij vooral te ricthen op het research paper. Vandaar dat ik uiteindelijk de gehele inleiding had geschreven en het literatuuronderzoek heb uitgevoerd. Op deze manier kon ik mijn stekre punten zo goed mogelijk benutten tijdens het project. <br><br>
   Daarnaast zou ik ook willen onderzoeken op welke andere manieren dit containerprobleem opgeslost zou kunnen worden, denk hierbij aan regressiemodellen en linear programmeren. <br><br>
-  Om de oplossing goed toe te kunnen passen bij een containerterminal zal het model ook opgeschaald moeten worden. Aan het einde van het onderzoek was het gelukt om een optimum te vinden voor grid van 3*3*1. Bij dit grid waren in totaal 9 mogelijke plekken voor een container, alleen werd er niet in de hoogte gestapeld. Dit zal moeten worden opgeschaald naar een grid ter grootte van een containerterminal. 
+  Om de oplossing goed toe te kunnen passen bij een containerterminal zal het model ook opgeschaald moeten worden. Aan het einde van het onderzoek was het gelukt om een optimum te vinden voor grid van 3x3x1. Bij dit grid waren in totaal 9 mogelijke plekken voor een container, alleen werd er niet in de hoogte gestapeld. Dit zal moeten worden opgeschaald naar een grid ter grootte van een containerterminal. 
   Hier zijn vaak honderden tot duizenden plekken voor containers.
   Daarnaast werd in ons model gebruik gemaakt van van containers die naar 2 verschillende bestemmingen toe moesten, 4 voor elke boot. Op een terminal komen per dag veel meer boten binnen. Het is daarom ook van belang om dit te verwerken in het model.
   Om dit goed te kunnen verwerken zal er eerst onderzoek moeten worden gedaan naar de hoeveelheid schepen die gemiddeld per dag in en uit de containerterminal gaan en om hoeveel containers dat per dag zal gaan. Er kan dan een gemiddelde worden genomen voor een aantal grote havens in Nederland/ de wereld. Of er kan gerricht onderzoek worden uitgevoerd voor één containerterminal.
@@ -90,26 +90,29 @@ Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deel
   <h5>Model selecteren</h5>
   Aan de hand van het onderzoek dat is uitgevoerd naar de toepassing van de verschillende reinforcement moddellen :A2C en PPO, kwam PPO het beste naar voren op basis van de episodelengte en de resultaten. Aan de hand van het model kunnen containers nu op een efficiënte manier op de kade worden geplaatst. Dit leidt tot het besparen van tijd en dus ook geld.
   PPO kwam er beter uit, omdat de gemiddelde episodelengte korter was dan bij A2C. Dat is ook te zien in de volgende grafiek:
-  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Episodelengte.png">
+  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Episodelengte.png"><br>
 
   <h5>Rewardfunctie</h5>
   Voor elke container die werd geplaatst op een beschikbare plek (waar op dat moment geen andere container is geplaatst) werd er een reward van 20 gegeven. Als er al een andere container op die plek stond, dan was er een penalty van -20. Als 2 containers naast elkaar kwamen te staan met dezelfde bestemming, dan werden er nog 10 extre punten toegekend. Als ze niet dezelfde bestemming deelden, dan werd er een penalty gegeven van -10.
   In de volgende grafiek is ook de gemiddelde episodereward per model gevisualiseerd. Hierin is ook te zien dat PPO sneller naar een hogere episodereward toe werkt.
-  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Episode%20reward.png">
+  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Episode%20reward.png"><br>
   <h5> Hyperparameters</h5>
   Voor de PPO agent zijn er 5 hyperparameters getuned (learning_rate, gamma, gae_lambda, ent_coef en vf_coef). Deze zijn getuned over een span van 500.000 trainingsstappen. Hierbij is er gekeken bij welke waarde van elke hyperparameter het optimum wordt bereikt met zo min mogelijk trainingsstappen.
   Aangezien dit nogal veel informatie bevat, verwijs ik u door naar het <a href ="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Research%20Paper%20Container%20Project%20Groep%204.pdf"> research paper </a> (hoofdstuk 5.2)
   Er zal nog een vervolgonderzoek/ opschaling van het model moeten plaatsvinden. Er is nu namelijk gewerkt met een grid van 3x3x1 (3 breed, 3 lang en 1 hoog), waarop in totaal 8 containers worden geplaatst. Hierbij zijn er 9 plekken om een container te plaatsen. Bij een grootschalige haven zijn er natuurlijk veel meer plekken om een container neer te zetten, en meer containers om te plaatsen.
   <h5>Geoptimaliseerd PPO model</h5>
   Vervolgens is het PPO model getraind met de optimale hyperparameters, dit gaf de volgende gemiddelde episodelengte:
-  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/PPO%20episodelengte.png">
+  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/PPO%20episodelengte.png"><br>
   In deze grafiek is te zien dat er snel naar een optimum wordt gewerkt van 8 stappen, dit betekent dat voor elke container één stap nodig is, dit is optimaal aangezien er 8 containers zijn om te plaatsen.
   in de volgende grafiek is de gemiddelde episodereward te zien.
-  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/PPO%20episodereward.png">
-  Er is in de grafiek te zien dat er snel naar de optimale episodereward van 200 wordt toegewerkt. De theoretische beste score is namelijk 8 x 20 + 4 x 10 = 200.
+  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/PPO%20episodereward.png"><br>
+  Er is in de grafiek te zien dat er snel naar de optimale episodereward van 200 wordt toegewerkt. De theoretische beste score is namelijk 8 x 20 + 4 x 10 = 200.<br>
+  Er kan worden geconcludeerd dat het huidige model optimaal getraind is op de environment en de rewardfunctie.
   Overegins zijn de complete conclusies ook terug te vinden in het <a href ="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Research%20Paper%20Container%20Project%20Groep%204.pdf"> research paper </a>.
   <h4>Planning</h4>
   Tijdens dit project hebben we ook weer gewerkt met een <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Scrum%20container.png'> scrum board</a>
+  Tijdens het gebruik van dit scrum board is er gewerkt met sprints die elk 2 weken duurden, hierbij kreeg ieder groepslid taken om te voltooien tijdens deze sprint.
+  Daarnaast waren er ook fysieke afspraken ingepland met de docenten. Om de maandag om 10:00 met Karin enlke vrijdag om 10:00 en 10:30 met Tony en Jeroen.
 </details>
 </details>
 
@@ -143,7 +146,7 @@ weighted avg       0.79      0.78      0.73       380
   het model kan voornamelijk goed een weekenddag voorspellen.
   </details>
 <details><summary><h2>Communication</h2></summary>
-Zelf ben ik een persoon die het niet erg vind om te presenteren, ik heb mijzelf ingezet voor meerdere interne presentaties en ook nog 2 externe presentaties.
+Zelf ben ik een persoon die het niet erg vind om te presenteren, ik heb mijzelf ingezet voor vijf interne presentaties en ook nog twee externe presentaties. In totaal 7 presentaties waarbij ik voor elke presentatie meerdere slides heb gepresenteerd.
 Dit zijn de presentaties die ik heb gepresenteerd:<br>
   Extern <br>
   <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Foodboost%20eindpresentatie.pptx'>Externe presentatie week 6 </a>
@@ -154,5 +157,6 @@ Intern<br>
 <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%204%20groep%204.pptx'>Interne presentatie week 4</a><br>
 <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%206%20groep%204.pptx'>Interne presentatie week 6</a><br>
 <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%206%20groep%204.pptx'>Interne presentatie week 8</a><br>
-<a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%206%20groep%204.pptx'>Interne presentatie week 12</a><br>
+<a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Presentaties/Interne%20presentatie%20week%206%20groep%204.pptx'>Interne presentatie week 12</a><br><br>
+  Alles wat ik heb bijgedragen aan het research paper is terug te vinden in het hoofdstuk "research project".
 </details><br>
