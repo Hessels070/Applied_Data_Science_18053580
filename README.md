@@ -67,7 +67,7 @@ Daarnaast heb ik voor dit project ook de inleiding geschreven. In principe besto
 </details>
 
 <details><Summary><h3>Container</h3></summary>
-Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deelvragen, deze zijn wel aangepast naar mate wij verder gingen in dit project. Daarnaast heb ik voor het research paper, dat wij uiteindelijk ingeleverd het volgende bijgedragen:<br>
+Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deelvragen, deze zijn wel aangepast naar mate wij verder gingen in dit project. Daarnaast heb ik voor het <a href ="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Research%20Paper%20Container%20Project%20Groep%204.pdf"> research paper </a>, dat wij uiteindelijk ingeleverd het volgende bijgedragen:<br>
   
 * Het schrijven van de inleiding, bestaande uit: een aanleiding, probleemstelling en doelstelling. De eerste opzet van de inleiding is geschreven door Akram<br>
 * Het literatuuronderzoek, bestaande uit: indeling terminal, processen containerterminal, reinforcement learning.<br>
@@ -90,12 +90,24 @@ Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deel
   <h5>Model selecteren</h5>
   Aan de hand van het onderzoek dat is uitgevoerd naar de toepassing van de verschillende reinforcement moddellen :A2C en PPO, kwam PPO het beste naar voren op basis van de episodelengte en de resultaten. Aan de hand van het model kunnen containers nu op een efficiënte manier op de kade worden geplaatst. Dit leidt tot het besparen van tijd en dus ook geld.
   PPO kwam er beter uit, omdat de gemiddelde episodelengte korter was dan bij A2C. Dat is ook te zien in de volgende grafiek:
-  ![image](https://user-images.githubusercontent.com/81196024/221144253-90334893-3899-463b-8bc4-101b94bd442e.png)
+  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Episodelengte.png">
 
   <h5>Rewardfunctie</h5>
   Voor elke container die werd geplaatst op een beschikbare plek (waar op dat moment geen andere container is geplaatst) werd er een reward van 20 gegeven. Als er al een andere container op die plek stond, dan was er een penalty van -20. Als 2 containers naast elkaar kwamen te staan met dezelfde bestemming, dan werden er nog 10 extre punten toegekend. Als ze niet dezelfde bestemming deelden, dan werd er een penalty gegeven van -10.
+  In de volgende grafiek is ook de gemiddelde episodereward per model gevisualiseerd. Hierin is ook te zien dat PPO sneller naar een hogere episodereward toe werkt.
+  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Episode%20reward.png">
+  <h5> Hyperparameters</h5>
+  Voor de PPO agent zijn er 5 hyperparameters getuned (learning_rate, gamma, gae_lambda, ent_coef en vf_coef). Deze zijn getuned over een span van 500.000 trainingsstappen. Hierbij is er gekeken bij welke waarde van elke hyperparameter het optimum wordt bereikt met zo min mogelijk trainingsstappen.
+  Aangezien dit nogal veel informatie bevat, verwijs ik u door naar het <a href ="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Research%20Paper%20Container%20Project%20Groep%204.pdf"> research paper </a> (hoofdstuk 5.2)
   Er zal nog een vervolgonderzoek/ opschaling van het model moeten plaatsvinden. Er is nu namelijk gewerkt met een grid van 3x3x1 (3 breed, 3 lang en 1 hoog), waarop in totaal 8 containers worden geplaatst. Hierbij zijn er 9 plekken om een container te plaatsen. Bij een grootschalige haven zijn er natuurlijk veel meer plekken om een container neer te zetten, en meer containers om te plaatsen.
-  Overegins zijn de complete conclusies ook terug te vinden in het research paper.
+  <h5>Geoptimaliseerd PPO model</h5>
+  Vervolgens is het PPO model getraind met de optimale hyperparameters, dit gaf de volgende gemiddelde episodelengte:
+  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/PPO%20episodelengte.png">
+  In deze grafiek is te zien dat er snel naar een optimum wordt gewerkt van 8 stappen, dit betekent dat voor elke container één stap nodig is, dit is optimaal aangezien er 8 containers zijn om te plaatsen.
+  in de volgende grafiek is de gemiddelde episodereward te zien.
+  <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/PPO%20episodereward.png">
+  Er is in de grafiek te zien dat er snel naar de optimale episodereward van 200 wordt toegewerkt. De theoretische beste score is namelijk 8 x 20 + 4 x 10 = 200.
+  Overegins zijn de complete conclusies ook terug te vinden in het <a href ="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Research%20Paper%20Container%20Project%20Groep%204.pdf"> research paper </a>.
   <h4>Planning</h4>
   Tijdens dit project hebben we ook weer gewerkt met een <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Scrum%20container.png'> scrum board</a>
 </details>
