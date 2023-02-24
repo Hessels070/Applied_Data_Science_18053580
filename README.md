@@ -60,7 +60,7 @@ Daarnaast heb ik voor dit project ook de inleiding geschreven. In principe besto
   <h4>Conclusions</h4>
   Omdat we dit project niet hebben afgerond (en van start zijn gegaan met het containerproject) is het helaas niet gelukt om een conclusie te schrijven en de hoofd-en deelvragen te beantwoorden. Nu ik terugkijk wil ik mijzelf graag nog een keer in dit project verdiepen om de hoofd-en deelvragen te beantwoorden.<br>
     Wat wel was gelukt is het volgende:
-    Er waren verschillende modellen gemaakt en getraind voor het voorspellen van voorkeuren van gesimuleerde gebruikers. Dit werd gedaan door het koppelen van gebruikers die dezelfde voorkeuren hadden; Stel als het overgrote deel van de gebruikers kaas en ijsbergsla lekker vinden, dan kan er voor een nieuwe gebruiker die ook van kaas houdt, voorspeld worden dat diegene ook van ijsbergsla zal houden. Dit is gedaan aan de hand van een dataset die bestaat uit gesimuleerde gebruikers. Het uiteindelijke doel was dan ook om ditzelfde resultaat te krijgen met echte gebruikers.
+    Er waren verschillende modellen gemaakt en getraind voor het voorspellen van voorkeuren van gesimuleerde gebruikers. Dit werd gedaan door het koppelen van gebruikers die dezelfde voorkeuren hadden; Stel als het overgrote deel van de gebruikers kaas en ijsbergsla lekker vinden, dan kan er voor een nieuwe gebruiker die ook van kaas houdt, voorspeld worden dat diegene ook van ijsbergsla zal houden. Dit is gedaan aan de hand van een dataset die bestaat uit gesimuleerde gebruikers. Het uiteindelijke doel was dan ook om ditzelfde resultaat te krijgen met echte gebruikers. Er zou dan aan de hand van een aantal favoriete gerechten een voorspelling worden gedaan voor een nieuw weekmenu.
   
   <h4>Planning</h4>
   Tijdens het project hebben we met een <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/SCRUM%20Foodboost.png'> scrum board </a> gewerkt.
@@ -74,8 +74,11 @@ Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deel
 * De laatste checks uitvoeren en de opmaak verbeteren op het einde.<br>
   
   <h4>Evaluation</h4>
-  Toen ik begon aan dit project merkte ik pas hoe moeilijk Reinforcement learning daadwerkelijk was. Ik had niet meer de houvast aan de opdrachten van DataCamp. Ik kon hier in het begin erg moeilijk mee omgaan. Nu ik terugkijk had ik mijzelf graag meer ingelezen in het reinforcement learning aan het begin van het project. Als ik dit zou kunnen overdoen dan had ik dit ook zeker gedaan.
-  Wel vond ik dit een enorm interessant project, vooral omdat het heeft laten zien hoe ontzettend breed python kan zijn.
+  Toen ik begon aan dit project merkte ik pas hoe moeilijk Reinforcement learning daadwerkelijk was. Ik had niet meer de houvast aan de opdrachten van DataCamp. Ik kon hier in het begin erg moeilijk mee omgaan. Nu ik terugkijk had ik mijzelf graag meer ingelezen in het reinforcement learning aan het begin van het project. Met name de literatuur, aangezien er enorm veel literatuur over dit onderwerp was te vinden. Als ik dit zou kunnen overdoen dan had ik dit ook zeker gedaan.
+  Als ik iemand tips kon geven voor reinforcement learning (mijzelf als ik naar het verleden kon gaan) dan zal ik als advies geven om met een zo klein mogelijk en simpel model te beginnen en dit steeds uit te breiden. Het is van belang dat hierbij gebruik wordt gemaakt van veel tutorials die zijn te vinden op het internet.<br>
+  Wel vond ik dit een enorm interessant, maar uitdagend project, vooral omdat het heeft laten zien hoe ontzettend breed python kan zijn. En dat python niet alleen gebruikt kan worden voor het analyseren en visualisering van een grote hoop aan data.<br>
+  Omdat ik merkte dat ik reinforcement learning een lastig onderwerp vond, besloot ik daarom ook om mij vooral te ricthen op het research paper. Daarom dat ik uiteindelijk de gehele inleiding had geschreven en het literatuuronderzoek heb uitgevoerd. Op deze manier kon ik mijn stekre punten zo goed mogelijk benutten tijdens het project. <br>
+  Daarnaast zou ik ook willen onderzoeken op welke andere manieren dit containerprobleem opgeslost zou kunnen worden, denk hierbij aan regressiemodellen en linear programmeren. 
   <h4>Conclusions</h4>
   De conclusies zijn terug te vinden in het research paper
   <h4>Planning</h4>
