@@ -73,6 +73,19 @@ Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deel
 * Het literatuuronderzoek, bestaande uit: indeling terminal, processen containerterminal, reinforcement learning.<br>
 * De laatste checks uitvoeren en de opmaak verbeteren op het einde.<br>
   
+  <h4>Task definition</h4>
+  De volgende hoofd- en deelvragen waren geformuleerd: <br>
+  Hoofdvraag<br>
+  Hoe kan ervoor gezorgd worden dat containers op een gesimuleerde kade op een efficiënte manier geplaatst kunnen worden, zodat de afnemers van de containers gemakkelijk bij hun containers kunnen komen?<br><br>
+  Deelvragen:<br>
+•	Hoe ziet de lay-out van een kade, waar containers worden geplaatst, eruit?<br>
+•	Welke RL-agents en methodes zijn relevant om dit optimalisatieprobleem aan te pakken?<br>
+•	Waaruit moet de environment uit bestaan voor een goede interactie met een RL-agent?<br>
+  De deelvragen zijn opgesplitst in kleine delen, zodat er op deze manier kan worden gewerkt aan het beantwoorden van de hoofdvraag.<br>
+Het is de bedoeling dat er tijdens het onderzoek wordt gezocht naar een reinforcement model dat kan helpen bij de optimale plaatsing van containers op een terminal. Hierbij is het van belang om eerst te onderzoeken hoe de terminal er daadwerkelijk uit ziet, en waar containers geplaatst kunnen worden.
+  Daarna worden alle relevante RL methodes in kaart gebracht en wordt er gekeken welke het beste geschikt is voor het huidige probleem.
+  Als laatste wordt (in combinatie met de eerste deelvraag) een environment gemaakt die dezelfde grootte heeft als de terminal. Hierop kan het model vervolgens getraind worden. Aan de hand van deze deelvragen kan de hoofdvraag worden beantwoord.
+  
   <h4>Evaluation</h4>
   
   In dit kopje zal ik bespreken wat ik het afgelopen project heb bijgedragen en welke activiteiten in de toekomst kunnen worden uitgevoerd ten behoeve van het onderzoek en de resultaten. <br><br>
