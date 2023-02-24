@@ -78,9 +78,18 @@ Voor dit project heb ik ook meegeholpen met het formuleren van de hoofd- en deel
   Als ik iemand tips kon geven voor reinforcement learning (mijzelf als ik naar het verleden kon gaan) dan zal ik als advies geven om met een zo klein mogelijk en simpel model te beginnen en dit steeds uit te breiden. Het is van belang dat hierbij gebruik wordt gemaakt van veel tutorials die zijn te vinden op het internet.<br>
   Wel vond ik dit een enorm interessant, maar uitdagend project, vooral omdat het heeft laten zien hoe ontzettend breed python kan zijn. En dat python niet alleen gebruikt kan worden voor het analyseren en visualisering van een grote hoop aan data.<br>
   Omdat ik merkte dat ik reinforcement learning een lastig onderwerp vond, besloot ik daarom ook om mij vooral te ricthen op het research paper. Daarom dat ik uiteindelijk de gehele inleiding had geschreven en het literatuuronderzoek heb uitgevoerd. Op deze manier kon ik mijn stekre punten zo goed mogelijk benutten tijdens het project. <br>
-  Daarnaast zou ik ook willen onderzoeken op welke andere manieren dit containerprobleem opgeslost zou kunnen worden, denk hierbij aan regressiemodellen en linear programmeren. 
+  Daarnaast zou ik ook willen onderzoeken op welke andere manieren dit containerprobleem opgeslost zou kunnen worden, denk hierbij aan regressiemodellen en linear programmeren. <br>
+  Om de oplossing goed toe te kunnen passen bij een containerterminal zal het model ook opgeschaald moeten worden. Aan het einde van het onderzoek was het gelukt om een optimum te vinden voor grid van 3*3*1. Bij dit grid waren in totaal 9 mogelijke plekken voor een container, alleen werd er niet in de hoogte gestapeld. Dit zal moeten worden opgeschaald naar een grid ter grootte van een containerterminal. 
+  Hier zijn vaak honderden tot duizenden plekken voor containers.
+  Daarnaast werd in ons model gebruik gemaakt van van containers die naar 2 verschillende boten toe moesten, 4 voor elke boot. Op een terminal komen per dag veel meer boten binnen. Het is daarom ook van belang om dit te verwerken in het model.
+  Om dit goed te kunnen verwerken zal er eerst onderzoek moeten worden gedaan naar hoeveel schepen gemiddeld per dag in en uit de containertermina gaan en om hoeveel containers dat per dag zal gaan.
+  
   <h4>Conclusions</h4>
-  De conclusies zijn terug te vinden in het research paper
+  Aan de hand van het onderzoek dat is uitgevoerd naar de toepassing van de verschillende reinforcement moddellen :A2C en PPO, kwam PPO het beste naar voren op basis van de episodelengte en de resultaten. Aan de hand van het model kunnen containers nu op een efficiënte manier op de kade worden geplaatst. Dit leidt tot het besparen van tijd en dus ook geld.
+  PPO kwam er beter uit, omdat de gemiddelde episodelengte korter was dan bij A2C. 
+  (vertellen over de rewardfunctie).
+  Er zal nog een vervolgonderzoek/ opschaling van het model moeten plaatsvinden. Er is nu namelijk gewerkt met een grid van 3x3x1 (3 breed, 3 lang en 1 hoog), waarop in totaal 8 containers worden geplaatst. Hierbij zijn er 9 plekken om een container te plaatsen. Bij een grootschalige haven zijn er natuurlijk veel meer plekken om een container neer te zetten, en meer containers om te plaatsen.
+  Overegins zijn de complete conclusies ook terug te vinden in het research paper.
   <h4>Planning</h4>
   Tijdens dit project hebben we ook weer gewerkt met een <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Scrum%20container.png'> scrum board</a>
 </details>
