@@ -10,6 +10,7 @@ Om mee te beginnen zal heb ik ongeveer 90% Datacamp courses afgrond. Hieronder z
   <img src="https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Datacamp.png">
 
 </details>
+
 <details><summary><h2>Domain knowledge</h2></summary>
   <h4>Introduction to the subject fiels</h4>
   Bij deze minor was het de bedoeling om aan de slag te gaan met data-analyse, dit werd gedaan met behulp van de programmeertaal 'Python'. Python onderscheid zich, omdat de taal erg goed leesbaar is. De taal is geschikt voor een breed scala aan toepassingen, waaronder webontwikkeling, automatisering, data-analyse en machine learning. Dankzij de grote hoeveelheid beschikbare libraries, modules en frameworks, is het mogelijk om complexe taken uit te voeren zonder veel code te hoeven schrijven. Python wordt daarom ook vaak gebruikt in de academische wereld voor wetenschappelijk onderzoek en in de bedrijfsomgevingen, voor het analyseren van grote goeveelheden data. Kortom, python is enorm veelzijdig en kan op veel verschillende manieren worden toegepast.<br><br>
@@ -32,19 +33,22 @@ Om mee te beginnen zal heb ik ongeveer 90% Datacamp courses afgrond. Hieronder z
   Verma, R., Saikia, S., Khadilkar, H., Agarwal, P., Shroff, G., & Srinivasan, A. (2019, 5 8). A Reinforcement Learning Framework for Container Selection and Ship Load Sequencing in Ports. AAMAS '19: Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems, pp. 2250-2252.<br>
   
   
-  
   </details>
+  
 <details><summary><h2>Research Project</h2></summary>
 
 Waar ik onder andere veel tijd in heb gestoken, is het research project. Voornamelijk heb ik mijzelf bezig gehouden met het schrijven van de inleiding van beide projecten. Zowel het FoodBoost als het Container project. Daarnaast heb ik ook de hoofd- en deelvragen en de doelstelling geformuleerd voor deze projecten. Ik zal per project toelichten wat ik heb bijgedragen 
 
-<details><Summary><h3>Foodboost</h3></summary>
+  <details><Summary><h2>Foodboost</h2></summary>
 In de eerste 6 weken waren wij als groep bezig gegaan met het foodboost project, het research paper is <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/Research%20paper%20FoodBoost.pdf'> hier </a>  
   te vinden. Ik merkte dat mijn groepsgenoten iets op mij voor liepen qua coderen had ik mijzelf voornamelijk bezig gehouden met het research paper. Ik had de hoofdvraag en de daarbij horende deelvragen geformuleerd voor dit project. Omdat ik mensen persoonlijk ken die een vegatarische levensstijl hebben wilde ik mij graag richten op deze doelgroep met dit project. Het was daarom ook belangrijk om alle behoeften van een vegetariër hierin mee te nemen, denk hierbij aan de vitamine B12 en proteïne's. Ook is het belangrijk dat dit dieet wekelijks kan variëren, niet dat een paar vegetarische gerechten het complete dieet vormen. Dit resulteerde in de volgende hoofd- en deelvragen:<br><br>
+  
 Hoofdvraag:<br><br>
+  
 * Hoe kunnen we voor 7 oktober 2022 vegetariërs een wekelijks variërend dieet aanbieden dat aan hun verschillende persoonlijke behoeften op het gebied van voedingswaarden en voorkeuren voldoet?<br>
 
 Deelvragen:
+  
 * Welke behoeften heeft een vegetariër met betrekking tot het dieet?
 * Hoe kan er een vegetarisch dieet aangeboden worden zodat deze voldoet aan alle verschillende persoonlijke caloriebehoeften binnen de groep vegetariërs.
 * Hoe kan er een vegetarisch dieet worden aangeboden dat wekelijks varieert.
@@ -54,7 +58,9 @@ Daarnaast heb ik voor dit project ook de inleiding geschreven. In principe besto
   Terugkijkend op dit projecten, met de kennis van nu, merk ik dat we (als groep), maar vooral persoonlijk meer uit dit project hadden kunnen halen. Ik had op dat moment nog niet genoeg kennis over de code en kon mij hierdoor niet volledig inzetten voor het project, voornamlijk Charlie en Richal hadden het voortouw genomen bij het coderen. Als ik dit project nu had kunnen overdoen, dan had ik betere code hebben kunnen schrijven.
   
   <h4>Conclusions</h4>
-  Omdat we dit project niet hebben afgerond is het helaas niet gelukt om een conclusie te schrijven en de hoofd-en deelvragen te beantwoorden. Nu ik terugkijk wil ik mijzelf graag nog een keer in dit project verdiepen om de hoofd-en deelvragen te beantwoorden.
+  Omdat we dit project niet hebben afgerond (en van start zijn gegaan met het containerproject) is het helaas niet gelukt om een conclusie te schrijven en de hoofd-en deelvragen te beantwoorden. Nu ik terugkijk wil ik mijzelf graag nog een keer in dit project verdiepen om de hoofd-en deelvragen te beantwoorden.<br>
+    Wat wel was gelukt is het volgende:
+    Er waren verschillende modellen gemaakt en getraind voor het voorspellen van voorkeuren van gesimuleerde gebruikers. Dit werd gedaan door het koppelen van gebruikers die dezelfde voorkeuren hadden; Stel als het overgrote deel van de gebruikers kaas en ijsbergsla lekker vinden, dan kan er voor een nieuwe gebruiker die ook van kaas houdt, voorspeld worden dat diegene ook van ijsbergsla zal houden. Dit is gedaan aan de hand van een dataset die bestaat uit gesimuleerde gebruikers. Het uiteindelijke doel was dan ook om ditzelfde resultaat te krijgen met echte gebruikers.
   
   <h4>Planning</h4>
   Tijdens het project hebben we met een <a href='https://github.com/Hessels070/Applied_Data_Science_18053580/blob/main/SCRUM%20Foodboost.png'> scrum board </a> gewerkt.
